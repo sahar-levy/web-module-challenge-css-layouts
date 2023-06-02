@@ -56,8 +56,6 @@ table {
     max-width: 100%;
     color: #B04759;
 }
-
-
 html {
     font-size: 62.5%;
 }
@@ -84,6 +82,10 @@ h2 {
     font-size: 3rem;
     margin-bottom: 5px;
 }
+h3 {
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
 .button-link {
     color: #FFF3E2;
     background-color: #B04759;
@@ -91,15 +93,16 @@ h2 {
     padding: 0 5px;
 }
 img.web-mockup {
-    width: 30%;
+    width: 35%;
 }
 .topsection {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 20px;
 }
 .description {
-    padding: 20px;
+    width: 50%;
+    /* margin-left: 3%; */
 }
 .p-description {
     margin-top: 10px;
@@ -117,4 +120,13 @@ img.web-mockup {
     background-color: #B04759;
     text-decoration: none;
     padding: 0 5px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-links a {
+    margin: 0 1%;
 }
