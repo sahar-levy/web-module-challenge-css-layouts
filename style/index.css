@@ -1,1 +1,120 @@
 /* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+    max-width: 100%;
+    color: #B04759;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.5;
+}
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF3E2;
+}
+footer {
+    padding: 20px;
+    background-color: #FFF3E2;
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+.button-link {
+    color: #FFF3E2;
+    background-color: #B04759;
+    text-decoration: none;
+    padding: 0 5px;
+}
+img.web-mockup {
+    width: 30%;
+}
+.topsection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.description {
+    padding: 20px;
+}
+.p-description {
+    margin-top: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.portfolio-element {
+    text-align: center;
+}
+.linkedin-btn {
+    color: #FFF3E2;
+    background-color: #B04759;
+    text-decoration: none;
+    padding: 0 5px;
+}
