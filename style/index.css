@@ -65,12 +65,12 @@ body {
     line-height: 1.5;
 }
 header {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 1%;
+    margin-bottom: 1%;
     background-color: #FFF3E2;
 }
 footer {
-    padding: 20px;
+    padding: 1%;
     background-color: #FFF3E2;
     text-align: center;
 }
@@ -86,7 +86,7 @@ h3 {
     font-size: 3rem;
     margin-bottom: 1%;
 }
-.button-link {
+.button-link, .linkedin-btn {
     color: #FFF3E2;
     background-color: #B04759;
     text-decoration: none;
@@ -102,7 +102,6 @@ img.web-mockup {
 }
 .description {
     width: 50%;
-    /* margin-left: 3%; */
 }
 .p-description {
     margin-top: 10px;
@@ -115,12 +114,6 @@ img.web-mockup {
 .portfolio-element {
     text-align: center;
 }
-.linkedin-btn {
-    color: #FFF3E2;
-    background-color: #B04759;
-    text-decoration: none;
-    padding: 0 5px;
-}
 
 .footer-links {
     display: flex;
@@ -129,4 +122,56 @@ img.web-mockup {
 }
 .footer-links a {
     margin: 0 1%;
+}
+
+/* media queries */
+@media(max-width: 800px) {
+    .row div {
+        width: 20%;
+    }
+}
+
+@media(max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    nav a {
+        text-align: center;
+        width: 40%;
+        margin: 0.5% 0;
+    }
+    .topsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img.web-mockup {
+        width: 80%;
+    }
+    .description {
+        text-align: center;
+        width: 90%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 0%;
+    }
+    .row div {
+        width: 40%;
+    }
+    .portfolio-element {
+        margin-bottom: 3%;
+    }
 }
